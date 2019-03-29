@@ -8,7 +8,7 @@ D4,D6,D8,D10,D12,D20,D100. However, it also contains the base <b>roll()</b> meth
  that allows for any sided dice to be virtually rolled.
 
 Rolls come in two flavors: <b>Standard</b>, which prints a console line, or <b>Quiet</b>, which only generates
-a number and no console command.
+a number and no console message.
 For example:
 
 <b>rollD6()</b>
