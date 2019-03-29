@@ -2,27 +2,32 @@
 A dice rolling library written in Java designed to be simple to use and integrate.
 By Joshua Orvis (5K Studios)
 
-The purpose of this Library is to provide simulated dicerolls for other programs.
+The purpose of this Library is to provide simulated dice rolls for other programs.
 It contains all of the common dice used in most table top games such as:
-D4,D6,D8,D10,D12,D20,D100. However, it also contains the base roll() methods
+D4,D6,D8,D10,D12,D20,D100. However, it also contains the base <b>roll()</b> methods
  that allows for any sided dice to be virtually rolled.
 
-Rolls come in two flavors: Standard, which prints a console line, or Quiet, which only generates
+Rolls come in two flavors: <b>Standard</b>, which prints a console line, or <b>Quiet</b>, which only generates
 a number and no console command.
 For example:
-rollD6();
-rollQuietD6();
 
-Within these two flavors you have the single roll or the multi roll:
-rollD6(); just rolls one
-rollD6(5); rolls 5 d6
+<b>rollD6()</b>
+
+<b>rollQuietD6()</b>
+
+Within these two flavors are the options to perform a single roll or a multi roll:
+
+<b>rollD6()</b> just rolls one
+
+<b>rollD6(5)</b> rolls five d6
 
 To make custom dice rolls you can use this:
 
-Dice dice = new Dice():
+Dice dice = new Dice();
+
 dice.roll(5, 2); //rolls 2 5-sided dice
 
-or
+<i>or</i>
 
 dice.roll(5); //if you just want one 5 sided die rolled
 
